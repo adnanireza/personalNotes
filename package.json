@@ -1,0 +1,32 @@
+{
+  "name": "personalNotes",
+  "version": "1.0.0",
+  "description": "Project: PersonalNotes",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnanireza/personalNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adnanireza/personalNotes/issues"
+  },
+  "homepage": "https://github.com/adnanireza/personalNotes#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}

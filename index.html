@@ -2,22 +2,87 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 
-    <title>Personal Notes</title>
+  <title>Personal Notes</title>
 </head>
 
 <body>
-    <header>
-        Personal Notes
-    </header>
+  <!-- Header -->
+  <header>
+    <div class="text-center py-5 text-white">
+      <h1>Personal Notes</h1>
+    </div>
+  </header>
 
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-sm sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#notesNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="notesNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item active"><a class="nav-link text-white" href="#"><i class="fa fa-home"></i> Home</a>
+          </li>
+        </ul>
+        <span class="navbar-text ml-auto">
+          <a role="button" id="loginButton" class="btn text-white">
+            <i class="fa fa-sign-in"></i> Login
+          </a>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Layout - Categories -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4 col-md-6 mb-2">
+        <div class="card h-100">
+          <h3 class="card-header text-white">School</h3>
+          <div class="card-body">
+            <!-- Filled in JS -->
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-6 mb-2">
+        <div class="card h-100">
+          <h3 class="card-header text-white">Groceries</h3>
+          <div class="card-body">
+            <!-- Filled in JS  -->
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-6 mb-2">
+        <div class="card h-100">
+          <h3 class="card-header text-white">Misc</h3>
+          <div class="card-body">
+            <!-- Filled in JS  -->
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-6 mb-2">
+        <div class="card h-100">
+          <h3 class="card-header text-white">Thesis</h3>
+          <div class="card-body">
+            <!-- Filled in JS  -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

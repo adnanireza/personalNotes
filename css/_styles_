@@ -1,0 +1,22 @@
+header div {
+    background-color: #f06161;
+    font-family: "Indie Flower";
+}
+header div h1 {
+    font-size: 5rem;
+}
+.navbar {
+    background-color: #eb786b;
+}
+body {
+    background-color: #f06161;
+}
+.card {
+    border: 0;
+}
+.card-header {
+    background-color: #bd574e;
+}
+.card-body {
+    background-color: #ffe3ed;
+}

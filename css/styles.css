@@ -9,7 +9,7 @@ header div h1 {
   background-color: #eb786b; }
 
 .navbar-toggler {
-  background-color: powderblue; }
+  background-color: #f06161; }
 
 body {
   background-color: #f06161; }
@@ -44,3 +44,10 @@ div.nav.nav-tabs.panel-header {
 textarea.form-control {
   border: 0;
   background-color: #ffe3ed; }
+
+.container .row form button {
+  background-color: #ffe3ed; }
+
+@media screen and (max-width: 560px) {
+  header div h1 {
+    font-size: 3rem; } }

@@ -1,7 +1,8 @@
 $header-bg: #bd574e;
 $body-bg: #ffe3ed;
+$main-header-bg: #f06161;
 header div {
-    background-color: #f06161;
+    background-color: $main-header-bg;
     font-family: "Indie Flower";
 }
 header div h1 {
@@ -11,7 +12,8 @@ header div h1 {
     background-color: #eb786b;
 }
 .navbar-toggler {
-    background-color: powderblue;
+    // background-color: #fb5b5a;
+    background-color: $main-header-bg;
 }
 body {
     background-color: #f06161;
@@ -46,4 +48,12 @@ div.nav.nav-tabs.panel-header {
 textarea.form-control {
     border: 0;
     background-color: $body-bg;
+}
+.container .row form button {
+    background-color: $body-bg;
+}
+@media screen and (max-width: 560px) {
+header div h1 {
+    font-size: 3rem;
+}
 }

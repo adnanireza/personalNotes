@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon-icons8-edit-64.png" type="image/x-icon">
 
   <title>Edit</title>
 </head>
@@ -17,7 +18,7 @@
 <body>
   <!-- Header -->
   <header>
-    <div class="text-center py-5 text-white">
+    <div class="text-center py-4 text-white">
       <h1>Personal Notes</h1>
     </div>
   </header>
@@ -32,7 +33,7 @@
         <ul class="navbar-nav">
           <li class="nav-item active"><a class="nav-link text-white" href="/"><i class="fa fa-home"></i> Home</a>
           </li>
-          </ul>
+        </ul>
         <span class="navbar-text ml-auto">
           <a role="button" id="loginButton" class="btn text-white">
             <i class="fa fa-sign-in"></i> Login
@@ -43,65 +44,83 @@
   </nav>
 
   <!-- Editable Content by categories -->
-  <nav>
-    <div class="nav nav-tabs panel-header" id="nav-tab" role="tablist">
-      <a class="nav-item nav-link active" id="nav-item1-tab" data-toggle="tab" href="#nav-item1" role="tab"
-        aria-controls="nav-item1" aria-selected="true">School</a>
-      <a class="nav-item nav-link" id="nav-item2-tab" data-toggle="tab" href="#nav-item2" role="tab"
-        aria-controls="nav-item2" aria-selected="false">Groceries</a>
-      <a class="nav-item nav-link" id="nav-item3-tab" data-toggle="tab" href="#nav-item3" role="tab"
-        aria-controls="nav-item3" aria-selected="false">Misc</a>
-      <a class="nav-item nav-link" id="nav-item4-tab" data-toggle="tab" href="#nav-item4" role="tab"
-        aria-controls="nav-item4" aria-selected="false">Thesis</a>
-    </div>
-  </nav>
-  <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-item1" role="tabpanel" aria-labelledby="nav-item1-tab">
-      <form>
-        <div class="form-row">
-          <div class="form-group col-12">
-            <div class="col-sm-12">
-              <textarea class="form-control" rows="10"></textarea>
+  <div class="container">
+    <nav>
+      <div class="nav nav-tabs panel-header" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-item1-tab" data-toggle="tab" href="#nav-item1" role="tab"
+          aria-controls="nav-item1" aria-selected="true">School</a>
+        <a class="nav-item nav-link" id="nav-item2-tab" data-toggle="tab" href="#nav-item2" role="tab"
+          aria-controls="nav-item2" aria-selected="false">Groceries</a>
+        <a class="nav-item nav-link" id="nav-item3-tab" data-toggle="tab" href="#nav-item3" role="tab"
+          aria-controls="nav-item3" aria-selected="false">Misc</a>
+        <a class="nav-item nav-link" id="nav-item4-tab" data-toggle="tab" href="#nav-item4" role="tab"
+          aria-controls="nav-item4" aria-selected="false">Thesis</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-item1" role="tabpanel" aria-labelledby="nav-item1-tab">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-12">
+              <div class="col-sm-12">
+                <textarea class="form-control" rows="10"></textarea>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div class="tab-pane fade" id="nav-item2" role="tabpanel" aria-labelledby="nav-item2-tab">
-      <form>
-        <div class="form-row">
-          <div class="form-group col-12">
-            <div class="col-sm-12">
-              <textarea class="form-control" rows="10"></textarea>
+        </form>
+      </div>
+      <div class="tab-pane fade" id="nav-item2" role="tabpanel" aria-labelledby="nav-item2-tab">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-12">
+              <div class="col-sm-12">
+                <textarea class="form-control" rows="10"></textarea>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div class="tab-pane fade" id="nav-item3" role="tabpanel" aria-labelledby="nav-item3-tab">
-      <form>
-        <div class="form-row">
-          <div class="form-group col-12">
-            <div class="col-sm-12">
-              <textarea class="form-control" rows="10"></textarea>
+        </form>
+      </div>
+      <div class="tab-pane fade" id="nav-item3" role="tabpanel" aria-labelledby="nav-item3-tab">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-12">
+              <div class="col-sm-12">
+                <textarea class="form-control" rows="10"></textarea>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-    <div class="tab-pane fade" id="nav-item4" role="tabpanel" aria-labelledby="nav-item4-tab">
-      <form>
-        <div class="form-row">
-          <div class="form-group col-12">
-            <div class="col-sm-12">
-              <textarea class="form-control" rows="10"></textarea>
+        </form>
+      </div>
+      <div class="tab-pane fade" id="nav-item4" role="tabpanel" aria-labelledby="nav-item4-tab">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-12">
+              <div class="col-sm-12">
+                <textarea class="form-control" rows="10"></textarea>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-10 text-center">
+        <form>
+          <div class="form-group row">
+            <div class="col-4">
+              <button type="button" class="btn btn-block">New </button>
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-block">Rename</button>
+            </div>
+            <div class="col-4">
+              <button type="button" class="btn btn-block">Delete</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
